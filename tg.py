@@ -10,7 +10,7 @@ def get_activity():
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text(f"Hello {update.effective_user.first_name}")
+    await update.message.reply_text(f"Salom {update.effective_user.first_name}")
 
 
 async def activity(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
